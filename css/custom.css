@@ -29,6 +29,10 @@
       background-color: rgb(35, 35, 70);
   }
 
+  .bg-custom-light{
+    background-color: lightblue;
+  }
+
 
   #logoimg{
       height: 150px;
