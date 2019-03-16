@@ -1,0 +1,48 @@
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
+
+  .navbar#myHeader{
+    background-color: white;
+    z-index: 100;
+  }
+
+ 
+
+  .mb-lg-3, .my-lg-3 {
+    margin-bottom: 2rem !important;
+  }
+
+  .features-icons .features-icons-item {
+    max-width: 10rem;
+  }
+
+  .features-icons .features-icons-item .features-icons-icon {
+    height: auto;
+  }
+
+  .bg-schedule{
+      background-color: rgb(35, 35, 70);
+  }
+
+
+  #logoimg{
+      height: 150px;
+  }
+
+  #logorow{
+      margin-bottom: 5rem;
+  }
+
+  img{ 
+      width: 100%;
+      height: auto;
+  }
+
+  html{
+      scroll-behavior: smooth;
+  }

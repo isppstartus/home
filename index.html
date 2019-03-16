@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Landing Page - Start Bootstrap Theme</title>
+  <title>StartUS - Landing Page</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,27 +20,39 @@
 
   <!-- Custom styles for this template -->
   <link href="css/landing-page.min.css" rel="stylesheet">
+  
+  <link href="css/custom.css" rel="stylesheet">
 
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-light bg-light static-top">
+  <nav class="navbar navbar-light bg-light static-top" id="myHeader">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-      <a class="btn btn-primary" href="#">Sign In</a>
+      <a class="navbar-brand" href="#Presentation">Presentación</a>
+      <a class="navbar-brand" href="#logos">Aplicaciones</a>
+      <a class="navbar-brand" href="#schedule">Horarios</a>
+      <a class="navbar-brand" href="#companies">Empresas</a>
     </div>
   </nav>
 
   <!-- Masthead -->
-  <header class="masthead text-white text-center">
+  <header id="Presentation" class="masthead text-white text-center">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
+          <h1 class="mb-5">StartUS será la ocasión perfecta para que las empresas y los almunos se encuentren.</h1>
+          <h2 class="mb-5">La información sobre el evento se irá actualizando a medida que se confirme. ¡Estad alerta a futuros cambios!</h2>
         </div>
+     
+      </div>
+    </div>
+  </header>
+
+   <!--
+
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
           <form>
             <div class="form-row">
@@ -53,11 +65,200 @@
             </div>
           </form>
         </div>
-      </div>
-    </div>
-  </header>
+        
+             -->
 
-  <!-- Icons Grid -->
+
+  <!-- Tabla de logos -->
+  <div id="logos"></div>
+  <section class="features-icons bg-light text-center">
+        <div class="container">
+
+            <!-- Primera fila -->
+            <div class="row" id="logorow">
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <a href="https://soundgo.github.io/home/"><img id="logoimg" src="img/logos/SoundGo.png" alt="SoundGo logo"></a>
+                        </div>
+                    </div>
+                    <h3>SoundGo</h3>
+                    <p class="lead mb-0">App para interactuar con otros, utilizando los audios para transmitir recomendaciones, sitios de interés o incluso momentos de diversión.</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <a href="https://motorlog-e600e.firebaseapp.com/www.landpage.co/e29d7054-44ea-11e9-884c-02cbf204825c.html"><img id="logoimg" src="img/logos/motorlog.png" alt="Motorlog logo"></a>
+                        </div>
+                    </div>
+                    <h3>Motorlog</h3>
+                    <p class="lead mb-0">A través de esta app mostramos el historial de revisiones y reparaciones de cada vehículo en los distintos talleres de España.</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <img id="logoimg" src="img/logos/bar2bar.png" alt="Bar2Bar logo">
+                        </div>
+                    </div>
+                    <h3>Bar2Bar</h3>
+                    <p class="lead mb-0">Gracias a esta aplicación encontraremos en qué bares podemos ver los deportes que queramos con promociones personalizadas.</p>
+                </div>
+            </div>
+
+            <!-- Segunda fila -->
+            <div class="row" id="logorow">
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <img id="logoimg" src="img/logos/Thorneo.png" alt="Thorneo logo">
+                        </div>
+                    </div>
+                    <h3>Thorneo</h3>
+                    <p class="lead mb-0">A través de esta aplicación podremos crear torneos de cualquier tipo o asistir a las competiciones cercanas de nuestra ciudad que organizan distintos sponsors.</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <img id="logoimg" src="img/logos/Capsulefy.png" alt="Capsulefy logo">
+                        </div>
+                    </div>
+                    <h3>Capsulefy</h3>
+                    <p class="lead mb-0">Aplicación web que permite crear cápsulas del tiempo online y ser publicadas en el futuro. También permite la publicación en redes sociales y notificar de su liberación por correo electrónico.</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <a href="https://roombit.wixsite.com/roombit"><img id="logoimg" src="img/logos/roombit_oscuro.png" alt="RoomBit logo"></a>
+                        </div>
+                    </div>
+                    <h3>RoomBit</h3>
+                    <p class="lead mb-0">Plataforma de anuncios de alquiler de habitaciones por hora, por y para estudiantes.</p>
+                </div>
+            </div>
+
+            <!-- Tercera fila -->
+            <div class="row" id="logorow">
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <img id="logoimg" src="img/logos/INK INJECT.png" alt="Ink Inject logo">
+                        </div>
+                    </div>
+                    <h3>Ink Inject</h3>
+                    <p class="lead mb-0">A través de esta aplicación los clientes podrán comprar tatuajes y obtener descuentos. Además podrán ponerse en contacto directamente con el tatuador.</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <img id="logoimg" src="img/logos/Barlingo.png" alt="Barlingo logo">
+                        </div>
+                    </div>
+                    <h3>Barlingo</h3>
+                    <p class="lead mb-0">Aplicación para realizar intercambio de idiomas en bares. Los bares se registrarán en la aplicación y se publicitarán a través de ella y los usuarios obtendrán descuentos en los bares al realizar los intercambios.</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <img id="logoimg" src="img/logos/Logo_Grooving.png" alt="Grooving logo">
+                        </div>
+                    </div>
+                    <h3>Grooving</h3>
+                    <p class="lead mb-0">Aplicación para dar visibilidad a los artistas e iniciarse en el mundo del espectáculo facilitando la contratación y simplificando el proceso de pago.</p>
+                </div>
+            </div>
+
+            <!-- Cuarta fila -->
+            <div class="row" id="logorow">
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <img id="logoimg" src="img/logos/Qiunt.png" alt="Qiun’t logo">
+                        </div>
+                    </div>
+                    <h3>Qiun’t</h3>
+                    <p class="lead mb-0">Aplicación basada en conocer en tiempo real la situación de un restaurante desde su ocupación, pasando por solicitar las comandas y el pago, evitando las interacciones y esperas.</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <a href="https://landingtravelmate.appspot.com/"><img id="logoimg" src="img/logos/TravelMate.png" alt="TravelMate logo"></a>
+                        </div>
+                    </div>
+                    <h3>TravelMate</h3>
+                    <p class="lead mb-0">Esta aplicación permite a viajeros de todo el mundo encontrarse con otros viajeros y planificar viajes juntos de forma segura.</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <img id="logoimg" src="img/logos/AIM Games logo.png" alt="Aim Games logo">
+                        </div>
+                    </div>
+                    <h3>Aim Games</h3>
+                    <p class="lead mb-0">Asociación que busca convertirse en la plataforma de referencia para la búsqueda de recursos para la creación de videojuegos.</p>
+                </div>
+            </div>
+
+            <!-- Quinta fila -->
+            <div class="row" id="logorow">
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <img id="logoimg" src="img/logos/Trond.png" alt="Trond logo">
+                        </div>
+                    </div>
+                    <h3>Trond</h3>
+                    <p class="lead mb-0">Trond es un servicio de tipo matchmaking que se centra en la práctica del Carpooling con funcionalidades que le separan de otras plataformas del sector. </p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <img id="logoimg" src="img/logos/DataMe.png.png" alt="DataMe logo">
+                        </div>
+                    </div>
+                    <h3>DataMe</h3>
+                    <p class="lead mb-0">Plataforma para poner en contacto a empresarios y data scientist para trabajos puntuales</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <img id="logoimg" src="img/logos/Aitomic.jpg" alt="Aitomic logo">
+                        </div>
+                    </div>
+                    <h3>Aitomic</h3>
+                    <p class="lead mb-0">Mercado de Inteligencia Artificial en el que hay proveedores que ofrecen modelos y usuarios que pueden consumirlos fácilmente.</p>
+                </div>
+            </div>
+        </div>
+  </section> 
+
+  <div id="schedule"></div>
+  <section class="features-icons bg-schedule text-white text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <h1 class="mb-5">Horarios</h1>
+                <h2 class="mb-5">Aún no se han concretado los horarios. <br/> ¡Estad pendientes para no perderos nada!</h2>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <div id="companies"></div>
+  <section class="features-icons bg-light text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <h1 class="mb-5">Empresas</h1>
+                <h2 class="mb-5">Las empresas asistentes se anunciarán a medida que confirmen su asistencia. <br/> 
+                                </h2>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+  <!-- Icons Grid 
+    
   <section class="features-icons bg-light text-center">
     <div class="container">
       <div class="row">
@@ -91,8 +292,10 @@
       </div>
     </div>
   </section>
+    -->
+   
 
-  <!-- Image Showcases -->
+  <!-- Image Showcases 
   <section class="showcase">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
@@ -120,7 +323,9 @@
     </div>
   </section>
 
-  <!-- Testimonials -->
+  -->
+
+  <!-- Testimonials 
   <section class="testimonials text-center bg-light">
     <div class="container">
       <h2 class="mb-5">What people are saying...</h2>
@@ -150,9 +355,11 @@
     </div>
   </section>
 
-  <!-- Call to Action -->
+  -->
+
+  <!-- Call to Action
   <section class="call-to-action text-white text-center">
-    <div class="overlay"></div>
+    <div id="call-action" class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
@@ -173,6 +380,8 @@
       </div>
     </div>
   </section>
+
+   -->
 
   <!-- Footer -->
   <footer class="footer bg-light">
@@ -224,6 +433,23 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+        } else {
+        header.classList.remove("sticky");
+        }
+    }
+  </script>
 
 </body>
 
