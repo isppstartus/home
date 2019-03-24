@@ -77,6 +77,10 @@
     width: auto;
   }
 
+  #blank{
+    padding-top: 0% !important;
+  }
+
   html{
       scroll-behavior: smooth;
   }
