@@ -72,6 +72,14 @@
       margin-bottom: 0;
   }
 
+  #companiestext{
+    color: #3a3a3a;
+  }
+
+  #terms{
+    color: white !important;
+  }
+
   img{ 
       width: 100%;
   }
