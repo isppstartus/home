@@ -4,11 +4,19 @@
     width: 100%;
   }
 
-
+  .masthead#Presentation{
+    background-image: url("../img/portada.jpg");
+    background-size: 110% 110%;
+  }
 
   .navbar#myHeader{
-    background-color: white;
+    background-color: #FAC12B;
     z-index: 100;
+  }
+
+  #links a{
+    color: white;
+    font-weight: 800;
   }
 
   .col-lg-4{
@@ -41,11 +49,13 @@
   }
 
   .bg-schedule{
-      background-color: rgb(35, 35, 70);
+      background-color: #861534;
   }
 
   .bg-custom-light{
-    background-color: lightblue;
+    background-image: url("../img/silueta\ sevilla\ 2.png");
+    background-color: #FAC12B;
+    background-size: 100% 100%;
   }
 
   .mb-5#apps{
