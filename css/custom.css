@@ -55,8 +55,10 @@
   .bg-custom-light{
     background-image: url("../img/silueta\ sevilla\ 2.png");
     background-color: #FAC12B;
-    background-size: 100% 100%;
-    object-fit: cover;
+    /* background-size: 100% 100%; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .mb-5#apps{
