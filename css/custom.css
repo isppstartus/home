@@ -98,6 +98,15 @@
     padding-top: 0% !important;
   }
 
+  #horarios{
+    display: inline-flex;
+  }
+
+   #horarioimg{
+    max-height: 500px;
+    max-width: auto;  
+  } 
+
   html{
       scroll-behavior: smooth;
   }
